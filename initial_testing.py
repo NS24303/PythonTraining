@@ -2,6 +2,8 @@ x = 10
 y = 50
 z = 1.05
 
+var = achange 
+
 T = True
 F = False
 
