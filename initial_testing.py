@@ -4,7 +4,9 @@ z = 1.05
 
 T =  True
 F = False
+#adding a test variable to ensure Pycharm and Git works.
 
+test = test
 welcome = "welcome world"
 
 # print the value of x
