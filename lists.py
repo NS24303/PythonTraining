@@ -1,6 +1,6 @@
 
 #list can contain multiple types of data
-a_list =['ip addresses', 30, 30]
+a_list = ['ip addresses', 30, 30]
 print(type(a_list))
 
 #print a single element from the list
@@ -60,9 +60,9 @@ the_new_list = list(a_tuple)
 print (type(the_new_list))
 
 #
-ipv6_addr="2001:0000:3238:DFE1:63:0000:0000:FEFB"
+ipv6_addr = "2001:0000:3238:DFE1:63:0000:0000:FEFB"
 print(ipv6_addr.split(":"))
-octets=ipv6_addr.split(":")
+octets = ipv6_addr.split(":")
 print(type(octets))
 
 # join is re-adding the : to the IPv6 octets which form the list.

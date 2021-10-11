@@ -14,9 +14,9 @@ ip_a = '1.1.1.1'
 ip_b = '8.8.8.8'
 ip_c = '8.8.4.4'
 
-ipvsix_a=str("1001:0000:3238:DFE1:0063:0000:0000:FEFB")
-IPVSIX_B=str("2001:0000:3238:DFE1:0063:0000:0000:FEFB")
-IPv6_C=str("3001:0000:3238:DFE1:0063:0000:0000:FEFB")
+ipvsix_a = str("1001:0000:3238:DFE1:0063:0000:0000:FEFB")
+IPVSIX_B = str("2001:0000:3238:DFE1:0063:0000:0000:FEFB")
+IPv6_C = str("3001:0000:3238:DFE1:0063:0000:0000:FEFB")
 
 print(ipvsix_a)
 print(IPVSIX_B)
@@ -30,7 +30,7 @@ ip_addr = input("enter an IP address: ")
 #print(ip_addr)
 print(ip_addr)
 # split the IP address by .
-octets  = ip_addr.split(".")
+octets = ip_addr.split(".")
 print("-"*80)
 print(octets)
 print("-"*80)

@@ -7,7 +7,7 @@
 # A better way to do the above which automatically closes the file.
 # considered better python
 with open("show_version.txt") as f:
-    output=f.read()
+    output = f.read()
 
 # write a file, not each time this is run it will overwrite the old file contents
 # could change this with the append function mode="a"

@@ -1,6 +1,6 @@
 ip_address = input ("Please enter an IP address: ")
 
-octets  = ip_address.split(".")
+octets = ip_address.split(".")
 print("-"*80)
 print("{:^15}{:^15}{:^15}{:^15}".format("octet1", "octet2", "octet3", "octet4"))
 print("-"*80)

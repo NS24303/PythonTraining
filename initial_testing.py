@@ -1,8 +1,8 @@
-x  = 10
+x = 10
 y = 50
 z = 1.05
 
-T =  True
+T = True
 F = False
 
 welcome = "welcome world"
