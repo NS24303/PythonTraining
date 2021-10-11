@@ -47,3 +47,28 @@ print(output[0:5])
 # [:] will display all lines
 # can also use minus numbers [-1:-5]
 # this can be used to create a new list from another list
+
+# A tuple is a list which you can not modify,
+# can not change an element, extend etc
+
+a_tuple = (1,2,3,4,54,65)
+print (type(a_tuple))
+
+# only way around this would be to convert type
+
+the_new_list = list(a_tuple)
+print (type(the_new_list))
+
+#
+ipv6_addr="2001:0000:3238:DFE1:63:0000:0000:FEFB"
+print(ipv6_addr.split(":"))
+octets=ipv6_addr.split(":")
+print(type(octets))
+
+# join is re-adding the : to the IPv6 octets which form the list.
+print(":".join(octets))
+
+# importing a module. This module detects command line arguments
+import sys
+print(sys.argv)
+# useful for importing command line arguments into a list to be used later?
