@@ -1,3 +1,7 @@
+''' Create a Python script that has three variables: ip_addr1, ip_addr2, ip_addr3 (representing three
+corresponding IP addresses). Print these three variables to standard output using a single print statement.
+Make your print statement compatible with both Python2 and Python3.'''
+
 ip_a = '1.1.1.1'
 ip_b = '8.8.8.8'
 ip_c = '8.8.4.4'
