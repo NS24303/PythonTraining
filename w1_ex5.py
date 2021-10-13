@@ -12,7 +12,8 @@ mac_1 = new_mac1[3]
 new_mac2 = mac2.split()
 ip2 = new_mac2[1]
 mac_2 = new_mac2[3]
-new_mac3= mac3.split()
+new_mac
+3= mac3.split()
 ip3 = new_mac3[1]
 mac_3 = new_mac3[3]
 

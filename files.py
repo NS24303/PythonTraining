@@ -23,7 +23,7 @@ print(output, "\n\n")
 # output the file removing new lines.
 print (output.splitlines())
 
-# read saingle line at a time
+# read single line at a time
 #line = f.readline()
 # read all lines
 #lines = f.readlines()
