@@ -1,0 +1,22 @@
+routerA#show ip bgp summary
+BGP router identifier 172.168.100.50, local AS number 159152
+BGP table version is 419228876, main routing table version 419228876
+859895 network entries using 213253960 bytes of memory
+4182575 path entries using 568830200 bytes of memory
+544238/145665 BGP path/bestpath attribute entries using 152386640 bytes of memory
+3 BGP rrinfo entries using 120 bytes of memory
+377723 BGP AS-PATH entries using 17969520 bytes of memory
+56633 BGP community entries using 7188166 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 959628606 total bytes of memory
+859401 received paths for inbound soft reconfiguration
+BGP activity 14564286/13574785 prefixes, 484904302/480148982 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+172.16.101.4      4       159152 71981415 32815537 419228883    0    0 48w1d      422200
+172.16.101.5      4       159152 64748302 32819666 419228883    0    0 48w1d      612154
+172.168.101.3     4       159152 101468410 32794535 419228883    0    0 48w1d      395044
+172.168.101.4     4       159152 71469549 33427478 419228883    0    0 49w0d      422207
+172.168.101.5     4       159152 67055511 33432403 419228883    0    0 49w0d      612145
+19.14.231.180   4         1789 37636058  777101 419228867    0    0 35w2d      859405
