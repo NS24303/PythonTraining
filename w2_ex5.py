@@ -7,6 +7,8 @@ From the last line use the string .split() method to obtain the BGP peer IP addr
 
 Print both local AS number and the BGP peer IP address to the screen.'''
 
+from num2words import num2words
+
 with open("show_ip_bgp_summ.txt") as f:
     output = f.readlines()
 
@@ -40,6 +42,10 @@ print("The remote AS Number for your BGP output is: " ,remote_as)
 print("The remote Peer IP address for your BGP output is: " ,remote_ip)
 print("The Peering has been up for: " ,uptime)
 print("The amount of learnt prefixes is: " ,prefixes)
+
+# Below is just something I wanted to see if it was possible, it has no real value
+# but it convers the number of prefixes to words.
+print(num2words(prefixes))
 
 # note this is very basic as it currently stands as it assumes output is on a given line
 # in future I would like to adapt this to automatically loop through and find all the peer IPs
