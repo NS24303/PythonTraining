@@ -26,3 +26,5 @@ print(line21)
 print("The Local IP Address for your BGP output is: " ,local_ip)
 print("The Local AS Number for your BGP output is: " ,local_as)
 
+
+
