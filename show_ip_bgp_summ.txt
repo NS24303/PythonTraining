@@ -1,4 +1,4 @@
-routerA#show ip bgp summary
+routerA# show ip bgp summary
 BGP router identifier 172.168.100.50, local AS number 159152
 BGP table version is 419228876, main routing table version 419228876
 859895 network entries using 213253960 bytes of memory
