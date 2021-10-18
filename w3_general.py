@@ -108,3 +108,14 @@ for ip_addr in ip_table:
         break
 else:
     print("you have hit the break clause")
+
+print("=" * 80)
+
+t = 100
+
+# while true can be used to stops loops
+while True:
+    print("hello")
+    print("hello")
+    if t == 100:
+        break
