@@ -81,4 +81,30 @@ for a_range in range(10):
 
 print("=" * 80)
 
+f = open("show_version.txt")
+i = 0
 
+# this will print 6 lines as i = 0 and loop is less than or equal to
+while i <=5:
+    print("LINE:::")
+    print(f.readline())
+    i += 1
+    # another way to do the increment is i = i +_1
+
+print("=" * 80)
+i = 0
+
+while i <=3:
+    line = f.readline()
+    line = line.strip()
+    print("LINE:::" ,line)
+    i = i + 1
+
+print("=" * 80)
+
+for ip_addr in ip_table:
+    print("The IP address is:", ip_addr)
+    if ip_addr == '20.99.20.20':
+        break
+else:
+    print("you have hit the break clause")
