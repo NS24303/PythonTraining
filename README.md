@@ -75,9 +75,13 @@ Initial testing of using external files with python scrips
 - Tuples
 - pycodestyle (linter)
 
-
 ### w2_ex4.py
 - File Opens
   - spilt, rstrip
 - lists
 - num2words
+
+### w3_general.py
+- ternary operator
+- None Data type
+- for loop
