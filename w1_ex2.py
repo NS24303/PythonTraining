@@ -14,7 +14,7 @@ Please enter an IP address: 80.98.100.240
 ------------------------------------------------------------
 Four columns, fifteen characters wide, a header column, data centered in the column.
 '''
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 #first try python2 method
 #try:
