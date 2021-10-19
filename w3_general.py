@@ -19,7 +19,6 @@ print(type(T))
 
 ip_table = ['10.10.10.10','20.20.20.20','30.30.30.30','40.40.40.40']
 
-
 for ip_addr in ip_table:
     print("The IP address is:", ip_addr)
 
