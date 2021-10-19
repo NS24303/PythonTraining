@@ -84,4 +84,9 @@ Initial testing of using external files with python scrips
 ### w3_general.py
 - ternary operator
 - None Data type
-- for loop
+- for loops
+  - breaks
+  - range
+  - else
+- while loops
+  - breaks
