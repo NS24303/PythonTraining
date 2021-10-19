@@ -11,3 +11,24 @@ VLAN_NAME combinations. From these VLAN_ID and VLAN_NAME construct a
  ('402', 'blue402'),
  ('403', 'blue403')]
  '''
+
+from pprint import pprint
+
+with open("show_vlan.txt") as f:
+    show_vlan = f.readlines()
+
+pprint(show_vlan[2:])
+
+'''
+Need to change this for a for loop rather than while. 
+
+show_vlan = open("show_vlan.txt")
+i = 2
+
+while i <=5:
+    output = show_vlan.readline()
+    vlan = output[0]
+    name = output[1]
+    print("\n", vlan, name)
+    i += 1
+'''
