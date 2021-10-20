@@ -23,14 +23,10 @@ for line in show_arp.splitlines():
     ip_addr = fields[1]
     mac_addr = fields[3]
     if '10.220.88.1' in line:
-        print("Default gateway IP/Mac: ")
-        print(ip_addr)
-        print(mac_addr)
+        print("Default gateway IP/Mac: " ,ip_addr, mac_addr,"\n")
 #        continue
     if '10.220.88.30' in line:
-        print("Arista3 IP/Mac is: ")
-        print(ip_addr)
-        print(mac_addr)
+        print("Arista3 IP/Mac is: " ,ip_addr, mac_addr,"\n")
         break
 '''
 Line 20: Could have used line.lower() to ignore case of protocol
