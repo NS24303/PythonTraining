@@ -26,10 +26,25 @@ for line in show_arp.splitlines():
         print("Default gateway IP/Mac: ")
         print(ip_addr)
         print(mac_addr)
-        continue
+#        continue
     if '10.220.88.30' in line:
         print("Arista3 IP/Mac is: ")
         print(ip_addr)
         print(mac_addr)
         break
+'''
+Line 20: Could have used line.lower() to ignore case of protocol
+Line 29: continue is not required here. 
+line 30: should have used elif rather than if. But both work. -
+using another if like I did is like a seperate function/section. 
+Where as using elif would have continued the previous if function. 
 
+line 26 & 31: alernative method for formatting:
+print("Default gateway IP/Mac is: {}/{}".format(ip_addr, mac_addr))
+^ this looks nicer but no real difference. Good to know
+
+General: Accepted answer was to use boolean to change to true when the 
+two IP/MAC addresses are found. Then use an if statement to end when both are true.
+
+I used a general break once it found the second without boolean
+'''
