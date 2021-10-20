@@ -88,5 +88,15 @@ Initial testing of using external files with python scrips
   - breaks
   - range
   - else
+  - enumerate
 - while loops
   - breaks
+
+### w3_ex1.py
+
+- pprint
+- reading from file
+  - for loop
+  - startswith method
+  - split
+  - splitline
