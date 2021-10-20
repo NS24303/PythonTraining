@@ -11,3 +11,25 @@ print out "Arista3 IP/Mac is" and the corresponding ip_addr and mac_addr.
 Keep track of whether you have found both the Default Gateway and the Arista3 switch. Once you
 have found both of these devices, 'break' out of the for loop.
 '''
+
+arp_table = []
+with open("show_arp.txt") as f:
+    show_arp = f.read()
+
+for line in show_arp.splitlines():
+    if "Protocol" in line:
+        continue
+    fields = line.split()
+    ip_addr = fields[1]
+    mac_addr = fields[3]
+    if '10.220.88.1' in line:
+        print("Default gateway IP/Mac: ")
+        print(ip_addr)
+        print(mac_addr)
+        continue
+    if '10.220.88.30' in line:
+        print("Arista3 IP/Mac is: ")
+        print(ip_addr)
+        print(mac_addr)
+        break
+
