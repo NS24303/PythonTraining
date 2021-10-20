@@ -108,3 +108,11 @@ Initial testing of using external files with python scrips
   - for loop
   - if statement
     - contine & break
+
+### w3_ex2.py
+
+- reading from file
+  - for loop
+  - if statement
+    - contine & break
+    - elif
