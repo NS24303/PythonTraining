@@ -97,6 +97,14 @@ Initial testing of using external files with python scrips
 - pprint
 - reading from file
   - for loop
+  - if statement with continue
   - startswith method
   - split
   - splitline
+
+### w3_ex1.py
+
+- reading from file
+  - for loop
+  - if statement
+    - contine & break
