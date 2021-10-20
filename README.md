@@ -125,3 +125,12 @@ Initial testing of using external files with python scrips
     - contine & break
     - elif
 - format method for print statments 
+
+### w3_ex4.py
+
+- if & while loop
+- join
+- spilt
+- replace
+- upper
+- append
