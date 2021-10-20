@@ -13,22 +13,28 @@ VLAN_NAME combinations. From these VLAN_ID and VLAN_NAME construct a
  '''
 
 from pprint import pprint
+vlan_list = []
 
 with open("show_vlan.txt") as f:
-    show_vlan = f.readlines()
+    show_vlan = f.read()
 
-pprint(show_vlan[2:])
+# this is a 'hack' to skip the first 2 lines, but it works
 
-'''
-Need to change this for a for loop rather than while. 
+# show_vlan = (show_vlan[2:])
 
-show_vlan = open("show_vlan.txt")
-i = 2
+# but it only works if using .readlines method.
+# this is because read & readline = string,
+# where as readlines make the variable a list
 
-while i <=5:
-    output = show_vlan.readline()
-    vlan = output[0]
-    name = output[1]
-    print("\n", vlan, name)
-    i += 1
-'''
+for line in show_vlan.splitlines():
+    if "VLAN" in line or "-" in line or line.startswith("  "):
+        continue
+    fields = line.split()
+    vlan_id = fields[0]
+    vlan_name = fields[1]
+    vlan_list.append((vlan_id, vlan_name))
+
+print()
+# pprint does not work with line breaks
+pprint(vlan_list)
+print()
