@@ -116,3 +116,12 @@ Initial testing of using external files with python scrips
   - if statement
     - contine & break
     - elif
+    - 
+### w3_ex3.py
+
+- reading from file
+  - for loop
+  - if statement
+    - contine & break
+    - elif
+- format method for print statments 
