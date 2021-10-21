@@ -41,35 +41,38 @@ WINDOWS = False
 
 base_cmd_linux = "ping -c 2"
 base_cmd_windows = "ping -n 2"
-# Ternary operator
+# Ternary operator - conditional expressions which uses boolean to confirm if a condition is true or not.
 base_cmd = base_cmd_windows if WINDOWS else base_cmd_linux
-
-## my attempt so far
 
 ip_range = []
 for i, octet in enumerate(range(1, 255)):
     ip_addr = subnet + str(octet)
+    # ip_addr is a string so we append it to the list ip_range
     ip_range.append(ip_addr)
 
-# one way to do the following - using a while loop - this works for print
-# Use a list slice to create a new list that goes from 10.10.100.3 to 10.10.100.6.
-  
+# I used a while loop to get ips .3 -> 6 which I initally printed to screen
+# but on further thought I saved to a new variable
+
     while i >= 2 and i <= 5:
-        print(i, "--->", ip_addr)
+        #print(i, "--->", ip_addr)
+        short_list = (i, "--->", ip_addr)
+        # this actually created a tuple rather than list
+        #print(short_list)
+        just_ip = short_list[2]
+        print("IP Address to ping is:" ,just_ip)
+        return_code = os.system("{} {}".format(base_cmd, just_ip))
+        print("-" * 40 ,"\n")
         break
 
-#however
+'''
+# an alternative approach based on the answer
 ip_range = ip_range[2:6]
 print('-' * 40)
 print(ip_range)
-print(base_cmd)
 
 for ip in ip_range:
     print("IP Address to ping is: ", ip)
     return_code = os.system("{} {}".format(base_cmd, ip))
     print("-" * 80)
 print()
-
-'''
-attempted to use join rather then + but didnt get this working
 '''
