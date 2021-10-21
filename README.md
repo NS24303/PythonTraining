@@ -142,4 +142,5 @@ Initial testing of using external files with python scrips
 - for & while loop 
   - enumerate
   - append
+- Ternary operator
   
