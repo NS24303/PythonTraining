@@ -134,3 +134,12 @@ Initial testing of using external files with python scrips
 - replace
 - upper
 - append
+
+### w3_ex5.py
+
+- ping script
+- import os (detect operating system)
+- for & while loop 
+  - enumerate
+  - append
+  
