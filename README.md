@@ -82,7 +82,7 @@ Initial testing of using external files with python scrips
 - num2words
 
 ### w3_general.py
-- ternary operator
+- ternary operator (conditional expressions)
 - None Data type
 - for loops
   - breaks
@@ -142,5 +142,5 @@ Initial testing of using external files with python scrips
 - for & while loop 
   - enumerate
   - append
-- Ternary operator
+- Ternary operator 
   
