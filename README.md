@@ -14,7 +14,7 @@ Takes an ip address
 - outputs as hex
 
 ### show_ver.py
-script for taking a fixed out and performing following:
+script for taking a fixed output and performing following:
 - strip leading and trialing whitespace
 - split output to grab model and serial
 - convert field to lower case
