@@ -134,3 +134,11 @@ Initial testing of using external files with python scrips
 - replace
 - upper
 - append
+
+### w4_general.py
+
+- Dictionaries
+  - get method
+  - pop
+  - update
+  - values & keys
