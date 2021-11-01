@@ -144,7 +144,6 @@ Initial testing of using external files with python scrips
   - append
 - Ternary operator 
   
-
 ### w4_general.py
 
 - Dictionaries
