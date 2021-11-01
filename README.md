@@ -14,7 +14,7 @@ Takes an ip address
 - outputs as hex
 
 ### show_ver.py
-script for taking a fixed out and performing following:
+script for taking a fixed output and performing following:
 - strip leading and trialing whitespace
 - split output to grab model and serial
 - convert field to lower case
@@ -82,7 +82,7 @@ Initial testing of using external files with python scrips
 - num2words
 
 ### w3_general.py
-- ternary operator
+- ternary operator (conditional expressions)
 - None Data type
 - for loops
   - breaks
@@ -134,6 +134,16 @@ Initial testing of using external files with python scrips
 - replace
 - upper
 - append
+
+### w3_ex5.py
+
+- ping script
+- import os (detect operating system)
+- for & while loop 
+  - enumerate
+  - append
+- Ternary operator 
+  
 
 ### w4_general.py
 
