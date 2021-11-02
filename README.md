@@ -151,3 +151,8 @@ Initial testing of using external files with python scrips
   - pop
   - update
   - values & keys
+- Sets
+  - union '|' (all elements from both, ignore duplicates)
+  - intersection '&' (elements common to both sets)
+  - difference '-' (anything that is common removed from first set) 
+  - symmetric difference '^' (XOR, nothing common between two sets, only unique) 

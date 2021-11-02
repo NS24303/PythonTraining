@@ -58,3 +58,9 @@ print("--- Key and Value enumerate ---")
 for key, value in net_device.items():
     print(key)
     print(value)
+
+# Sets
+# note duplicate is there on purpose to demo that Sets ignore duplicates
+ipam = {'1.1.1.1', '8.8.8.8', '8.8.4.4', '1.0.0.1', '1.1.1.2', '1.1.1.1'}
+print(type(ipam))
+print(ipam)
