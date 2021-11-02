@@ -63,6 +63,26 @@ for key, value in net_device.items():
 # note duplicate is there on purpose to demo that Sets ignore duplicates
 ipam = {'1.1.1.1', '8.8.8.8', '8.8.4.4', '1.0.0.1', '1.1.1.2', '1.1.1.1'}
 ipam_two = {'149.112.112.112', '9.9.9.9', '208.67.222.222', '208.67.220.220', '1.1.1.2', '1.1.1.1'}
-print(type(ipam), type(ipam_two))
-print(ipam)
-print(ipam_two)
+#print(type(ipam), type(ipam_two))
+print("set one is:" ,ipam)
+print("set two is:" ,ipam_two)
+
+# union - unique elements in both sets, no duplicates
+print("union of sets is \n" ,ipam | ipam_two ,"\n")
+# another method to do the union
+# print(ipam.union(ipam_two))
+
+# intersection of the two sets - only common elements
+print("intersection of sets is \n" ,ipam & ipam_two,"\n")
+# another way to do the intersection
+# print(ipam.intersection(ipam_two))
+
+# remove anything that is common from ipam_two which is also in ipam
+print("difference of sets is \n",ipam_two - ipam,"\n")
+# another way to do this
+#print(ipam_two.difference(ipam))
+
+# symmetric difference - xor - only unique elements in the two sets
+print("symmetric difference of sets is \n" ,ipam_two ^ ipam,"\n")
+# another way to do this
+#print(ipam.symmetric_difference(ipam_two))
