@@ -155,4 +155,9 @@ Initial testing of using external files with python scrips
   - union '|' (all elements from both, ignore duplicates)
   - intersection '&' (elements common to both sets)
   - difference '-' (anything that is common removed from first set) 
-  - symmetric difference '^' (XOR, nothing common between two sets, only unique) 
+  - symmetric difference '^' (XOR, nothing common between two sets, only unique)
+- Exceptions
+  - try
+  - KeyError (dict)
+  - IndexError (list)
+  - Exception (any error)

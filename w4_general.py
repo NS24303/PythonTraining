@@ -86,3 +86,51 @@ print("difference of sets is \n",ipam_two - ipam,"\n")
 print("symmetric difference of sets is \n" ,ipam_two ^ ipam,"\n")
 # another way to do this
 #print(ipam.symmetric_difference(ipam_two))
+
+# exceptions
+my_dict = {}
+# below line will produce error on purpose to give example (if not commented out)
+# my_dict['ip_addr']
+# this error will exit the script
+
+# this try function handels the error gracefully
+# rather than exiting the script it will print out the error message in KeyError.
+'''
+try:
+    print("this is before")
+    my_dict['ip_addr']
+    print("this is after")
+except KeyError:
+    print("Found an Error")
+# can also re-raise the error message, but it also exits script
+    raise
+'''
+
+# alternative method
+try:
+    my_dict['ip_addr']
+except KeyError as e:
+    print(e.__class__)
+    print(str(e))
+    print("found an error, printed info above")
+
+# catch multiple exceptions
+my_list = []
+try:
+    my_dict['ip_addr']
+    my_list[0]
+except (KeyError, IndexError):
+    print("handled two errors")
+# could have 2 except lines, one for each type of error with different actions, i.e. prints
+finally:
+# happens regardless of an exception being found or not
+    print("finally, always executed")
+# Note KeyError = dictionary
+# whereas IndexError = lists
+
+# could handle any exception, regardless of type with
+#   except Exception
+#   print("any exception")
+
+print("script ended gracefully")
+
