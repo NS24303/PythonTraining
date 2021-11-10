@@ -161,3 +161,10 @@ Initial testing of using external files with python scrips
   - KeyError (dict)
   - IndexError (list)
   - Exception (any error)
+
+### w4_regex.py
+
+- Regular Expressions
+- re.search
+  - group
+  - groupdict
