@@ -15,7 +15,7 @@ import re
 
 ip_add = "10.23.100.240"
 
-print(re.search(r".", ip_add))
+print(re.search(r"..", ip_add))
 
 # .group is used to confirm what matched
 # remember . in regex is any charater
