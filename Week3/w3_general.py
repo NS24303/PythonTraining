@@ -80,7 +80,7 @@ for a_range in range(10):
 
 print("=" * 80)
 
-f = open("show_version.txt")
+f = open("../Week2/show_version.txt")
 i = 0
 
 # this will print 6 lines as i = 0 and loop is less than or equal to

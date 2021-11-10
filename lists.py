@@ -35,7 +35,7 @@ print(len(a_list))
 
 ### List slices
 print("Now we look at list slices")
-f =open("show_version.txt")
+f =open("Week2/show_version.txt")
 output = f.readlines()
 print("The amount of lines in the list is" ,len(output) ,"and the type is" ,type(output) ,"\n")
 
