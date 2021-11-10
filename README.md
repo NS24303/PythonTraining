@@ -168,3 +168,6 @@ Initial testing of using external files with python scrips
 - re.search
   - group
   - groupdict
+  - multi line flag (re.M)
+  - Match new lines (re.DOTALL)
+  - ignore case (re.I)

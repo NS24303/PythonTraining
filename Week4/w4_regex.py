@@ -47,3 +47,22 @@ print(device_type)
 
 # name a saved regex capture using ?P<serial_num>
 print(re.search(r"^C.*, Version (?P<version>\S+),.*$", line).groupdict())
+
+# by default .* will grab as much as it can, this means it wont stop on the first , but the last
+print(re.search(r"^Cisco (.*), ", line).group(1))
+#  we can stop this with the ? after the .* (also called non-greedy)
+print(re.search(r"^Cisco (.*?), ", line).group(1))
+
+# below would not work as ^ is begging of string, not line. This would match Cisco at start of show version
+# print(re.search(r"^Processor board ID (.*)$", output).group(0))
+# need to match on every line we can use the multiline flag re.M
+print(re.search(r"^Processor board ID (.*)$", output, flags=re.M).group(1))
+
+
+
+# this will not match the whole of output, .* does not match new lines
+print(re.search(r"^Cisco.*", output).group(0))
+# to change this use DOTALL flag
+print(re.search(r"^Cisco.*", output, flags=re.DOTALL).group(0))
+# i flag is ignore case in regex
+print(re.search(r"^Cisco.*", output, flags=re.I).group(0))
