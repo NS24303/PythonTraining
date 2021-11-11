@@ -174,3 +174,9 @@ Initial testing of using external files with python scrips
   - split (re.split)
   - substitution (re.sub)
   - find all (re.findall)
+  
+### w4_ex1.py
+
+- dict & .update method
+- for loop
+- if
