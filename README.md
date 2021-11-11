@@ -171,3 +171,6 @@ Initial testing of using external files with python scrips
   - multi line flag (re.M)
   - Match new lines (re.DOTALL)
   - ignore case (re.I)
+  - split (re.split)
+  - substitution (re.sub)
+  - find all (re.findall)

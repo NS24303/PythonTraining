@@ -66,3 +66,11 @@ print(re.search(r"^Cisco.*", output).group(0))
 print(re.search(r"^Cisco.*", output, flags=re.DOTALL).group(0))
 # i flag is ignore case in regex
 print(re.search(r"^Cisco.*", output, flags=re.I).group(0))
+
+
+print("-"*80)
+# split function
+print(re.split(r"^-------------.*$", output, flags=re.M)[1])
+print("+"*80)
+# sub function
+print(re.sub(r"^-------------.*$", '+*+*+*+*+*+*+*+*', output, flags=re.M))
