@@ -180,3 +180,11 @@ Initial testing of using external files with python scrips
 - dict & .update method
 - for loop
 - if
+
+### w4_ex2.py
+
+- Sets with intersections & differences
+
+### w4_ex3.py
+
+- RegEx matching output from show_version
