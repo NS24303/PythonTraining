@@ -174,6 +174,7 @@ Initial testing of using external files with python scrips
   - split (re.split)
   - substitution (re.sub)
   - find all (re.findall)
+- named RegEx (?P)
   
 ### w4_ex1.py
 
@@ -188,3 +189,7 @@ Initial testing of using external files with python scrips
 ### w4_ex3.py
 
 - RegEx matching output from show_version
+
+### w4_ex4.py
+
+- Named RegEx
