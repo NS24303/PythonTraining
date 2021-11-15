@@ -217,3 +217,7 @@ Initial testing of using external files with python scrips
 
 - functions
   - named arguments
+- Classes
+- List comprehension 
+- lambda functions
+- Debugging (pdb)
