@@ -130,7 +130,7 @@ Initial testing of using external files with python scrips
 
 - if & while loop
 - join
-- spilt
+- split
 - replace
 - upper
 - append
@@ -193,3 +193,10 @@ Initial testing of using external files with python scrips
 ### w4_ex4.py
 
 - Named RegEx
+
+### w4_ex5.py
+
+- RegEx with DOTALL
+  - strip
+  - splitline
+  - for loop
