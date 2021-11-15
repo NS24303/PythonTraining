@@ -32,6 +32,8 @@ Initial testing of using external files with python scrips
 - splits & joins
 - import sys (arguments )
 
+## Week1
+
 ### w1_ex1.py
 - import sys
 - formatting of output
@@ -54,6 +56,8 @@ Initial testing of using external files with python scrips
 
 ### w1_ex5.py
 - formatting of text
+
+## Week2
 
 ### w2_ex1.py
 - File open & closes. Both methods
@@ -81,6 +85,8 @@ Initial testing of using external files with python scrips
 - lists
 - num2words
 
+## Week3
+
 ### w3_general.py
 - ternary operator (conditional expressions)
 - None Data type
@@ -91,6 +97,8 @@ Initial testing of using external files with python scrips
   - enumerate
 - while loops
   - breaks
+
+## Week3
 
 ### w3_ex1.py
 
@@ -143,6 +151,8 @@ Initial testing of using external files with python scrips
   - enumerate
   - append
 - Ternary operator 
+
+## Week4
   
 ### w4_general.py
 
@@ -200,3 +210,10 @@ Initial testing of using external files with python scrips
   - strip
   - splitline
   - for loop
+
+## Week5
+
+### w5_general.py
+
+- functions
+  - named arguments
