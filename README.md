@@ -217,7 +217,15 @@ Initial testing of using external files with python scrips
 
 - functions
   - named arguments
+  - positional arguments
 - Classes
 - List comprehension 
 - lambda functions
 - Debugging (pdb)
+
+### w5_w1.py
+
+- functions
+  - named arguments
+  - positional arguments
+  - **kwargs technique
