@@ -229,3 +229,11 @@ Initial testing of using external files with python scrips
   - named arguments
   - positional arguments
   - **kwargs technique
+
+### w5_w2.py
+
+- functions
+- import random
+- type casting
+  - positional arguments
+  - **kwargs technique
