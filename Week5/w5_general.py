@@ -44,7 +44,7 @@ def which_dns(dns, username, password):
 # n goes to next section in script within the same level
 # return (continues to return line of a function)
 # can also be run with:
-# python -m pdb <script_name.ppy
+# python -m pdb <script_name.py>
 # by doing this you dont need to import and have a breakpoint
 # b 10 (breakpoint at line 10)
 # continue (keep going until hits breakpoint)
