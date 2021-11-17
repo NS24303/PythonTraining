@@ -62,4 +62,6 @@ def mac_format(mac_addr):
         new_mac.append(entry)
     new_mac = ":".join(new_mac)
     return new_mac
+    
+# zfill is used to fill a string with zeros until it is a certain length in size (x)
 '''
