@@ -12,37 +12,45 @@ should be converted to:
 
 Write several test cases for your function and verify it is working properly.
 '''
-
 import re
 
-def mac_format(mac_addr):
-    mac_addr = mac_addr.upper()
-    if ":" in mac_addr or "-" in mac_addr:
+def mac_format(mac_address):
+    mac_address = mac_address.upper()
+    if ":" in mac_address or "-" in mac_address:
         new_mac = []
-        octets = re.split(r"[-:]", mac_addr)
+        octets = re.split(r"[-:]", mac_address)
+        # print(octets)
         for octet in octets:
             if len(octet) < 2:
                 octet = octet.zfill(2)
             new_mac.append(octet)
 
-    elif "." in mac_addr:
+    elif "." in mac_address:
         new_mac = []
-        sections = mac_addr.split(".")
-        if len(sections) != 3:
-            raise ValueError("Something went wrong")
-        for word in sections:
-            if len(word) < 4:
-                word = word.zfill(4)
-            new_mac.append(word[:2])
-            new_mac.append(word[2:])
+        sections = mac_address.split(".")
+        # print(sections)
+        # i created this additional if statement for a use case where a mac address is xx.xx.xx.xx.xx.
+        # this may never be required but wanted to try it.
+        if len(sections) == 6:
+            print(":".join(sections))
+        if len(sections) == 3:
+            for word in sections:
+                if len(word) < 4:
+                    word = word.zfill(4)
+                new_mac.append(word[:2])
+                new_mac.append(word[2:])
 
     return ":".join(new_mac)
 
-print(mac_format('001c.c4bf.826a'))
 print(mac_format('a:b:c:d:e:f'))
+print(mac_format('fc:99:47:49:b0:b1'))
+print(mac_format('001c.c4bf.826a'))
+print(mac_format('ee.97.37.29.a1.c3'))
+
 
 ''' 
-The below code was my attempt at this exercise. This worked for the general formatting but did not perform any padding 
+The below code was my original attempt at this exercise. 
+This worked for the general formatting but did not perform any padding in the case of a:b:c:d:e:f
 
 def mac_format(mac_addr):
     mac_addr = mac_addr.upper()
