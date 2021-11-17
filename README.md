@@ -223,17 +223,26 @@ Initial testing of using external files with python scrips
 - lambda functions
 - Debugging (pdb)
 
-### w5_w1.py
+### w5_ex1.py
 
 - functions
   - named arguments
   - positional arguments
   - **kwargs technique
 
-### w5_w2.py
+### w5_ex2.py
 
 - functions
 - import random
 - type casting
   - positional arguments
   - **kwargs technique
+
+### w5_ex3.py
+
+- functions
+  - regex
+  - if statements
+  - zfill
+  - raise (error)
+  - split & append
