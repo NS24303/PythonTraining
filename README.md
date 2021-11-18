@@ -246,3 +246,20 @@ Initial testing of using external files with python scrips
   - zfill
   - raise (error)
   - split & append
+
+
+## Week6
+
+### W6_general.py
+### W6_delay.py
+### W6_multiline.py
+- Netmiko
+  - delay_factor
+  - global_delay_factor
+  - send_command
+  - send_command_timing
+- getpass
+
+### list_device_type.py
+
+- full list of devices in Netmiko
