@@ -247,7 +247,6 @@ Initial testing of using external files with python scrips
   - raise (error)
   - split & append
 
-
 ## Week6
 
 ### W6_general.py

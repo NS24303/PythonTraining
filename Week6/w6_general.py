@@ -101,3 +101,5 @@ for device in (firewall1, firewall2, firewall3):
     net_conn = Netmiko(**device)
     output = net_conn.send_command("show ip")
     print(output)
+
+net_conn.disconnect()
