@@ -40,5 +40,20 @@ Password:
 {'interface': 'NeverNetworks_admin', 'address': '192.168.99.131', 'age': '842', 'mac': 'c464.1336.f741'}, 
 {'interface': 'NeverNetworks_admin', 'address': '192.168.99.130', 'age': '3048', 'mac': 'fc99.4749.ae5e'}, 
 {'interface': 'Failover', 'address': '192.168.63.26', 'age': '1427', 'mac': 'cc16.7e91.884d'}]
-<class 'list'>'''
+<class 'list'>
+
+
+======= Script
+
+for device in (firewall2, firewall3):
+    net_conn = ConnectHandler(**device)
+    output = net_conn.send_command("show arp",  use_textfsm=True)
+
+print(output)
+print(type(output))
+
+net_conn.disconnect()
+
+
+'''
 
