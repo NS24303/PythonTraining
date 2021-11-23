@@ -271,4 +271,11 @@ Initial testing of using external files with python scrips
 
 ### w7_general.py
 
--Jinja2 - configuration templates
+- Jinja2 - configuration templates
+
+### w7_general2.py
+
+-jinja2 - import from file
+  - for loop
+  - conditional
+
