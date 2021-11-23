@@ -262,3 +262,13 @@ Initial testing of using external files with python scrips
 ### list_device_type.py
 
 - full list of devices in Netmiko
+
+### W6_testFSM.py
+
+- Sample script using TextFSM to format output
+
+## Week7
+
+### w7_general.py
+
+-Jinja2 - configuration templates
