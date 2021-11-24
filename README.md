@@ -275,7 +275,10 @@ Initial testing of using external files with python scrips
 
 ### w7_general2.py
 
--jinja2 - import from file
+- jinja2 - import from file
   - for loop
   - conditional
 
+### w7_output_test.py
+
+- Creating Jinja2 templates and outputting to file per csv line
