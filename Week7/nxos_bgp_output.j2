@@ -1,0 +1,11 @@
+{{ device_id }}
+feature bgp
+router bgp 10
+  address-family ipv4 unicast
+    {%- for route in advertised_routes %}
+    network {{ route }}
+    {%- endfor %}
+  neighbor {{ peer1_ip }} remote-as {{ peer1_as }}
+    update-source loopback0
+    ebgp-multihop2
+    address-family ipv4 unicast
