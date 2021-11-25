@@ -278,7 +278,15 @@ Initial testing of using external files with python scrips
 - jinja2 - import from file
   - for loop
   - conditional
+  
+### w7_general3.py
+
+- jinja2 external csv variable file 
 
 ### w7_output_test.py
 
 - Creating Jinja2 templates and outputting to file per csv line
+
+### w7_general4py
+
+- jinja2 nested for & if loops
