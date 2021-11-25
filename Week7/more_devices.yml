@@ -1,0 +1,26 @@
+---
+rtr1: 10.1.1.1
+rtr2: 172.1.1.1
+rtr3: 192.1.1.1
+rtr4: some random string
+rtr5: "{random text with special characters}"
+rtr6: true
+rtr7: yes
+rtr8: on
+rtr9: off
+rtr10: 100
+
+rtr11:
+  ip_addr: 10.85.32.24
+  username: admin
+  password: whatever
+  device_type: cisco_ios
+  bgp_peers:
+    - 1.1.1.1
+    - 2.2.2.2
+    - 3.4.4.4
+rtr12:
+  ip_addr: 10.95.32.24
+  username: admin
+  password: whatever
+  device_type: cisco_nxos

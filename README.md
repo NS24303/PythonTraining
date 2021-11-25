@@ -290,3 +290,7 @@ Initial testing of using external files with python scrips
 ### w7_general4py
 
 - jinja2 nested for & if loops
+
+### w7_yaml.py
+
+- reading a yaml file into python
