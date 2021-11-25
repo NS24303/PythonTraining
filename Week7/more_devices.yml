@@ -24,3 +24,5 @@ rtr12:
   username: admin
   password: whatever
   device_type: cisco_nxos
+  bgp_peers: [1.1.10.1, 25.54.25.45, 161.65.58.33]
+rtr13: {ip_addr: 23.54.34.123}
