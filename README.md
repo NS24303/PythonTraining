@@ -294,3 +294,11 @@ Initial testing of using external files with python scrips
 ### w7_yaml.py
 
 - reading a yaml file into python
+
+### w7_py_2_yaml.py
+
+- converting python to yaml
+
+### w7_yaml.py
+
+- converting python to JSON 
