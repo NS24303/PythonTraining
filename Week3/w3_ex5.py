@@ -50,7 +50,7 @@ for i, octet in enumerate(range(1, 255)):
     # ip_addr is a string so we append it to the list ip_range
     ip_range.append(ip_addr)
 
-# I used a while loop to get ips .3 -> 6 which I initally printed to screen
+# I used a while loop to get ips .3 -> 6 which I initially printed to screen
 # but on further thought I saved to a new variable
 
     while i >= 2 and i <= 5:
