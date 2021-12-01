@@ -79,7 +79,7 @@ Initial testing of using external files with python scrips
 - Tuples
 - pycodestyle (linter)
 
-### w2_ex4.py
+### w2_ex5.py
 - File Opens
   - spilt, rstrip
 - lists
